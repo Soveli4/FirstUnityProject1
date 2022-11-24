@@ -15,7 +15,7 @@ D:/Repository/FirstUnityProject1/FirstUnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54885
+51950
 Successfully changed project path to: D:/Repository/FirstUnityProject1/FirstUnityProject
 D:/Repository/FirstUnityProject1/FirstUnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,7 +49,7 @@ D:/Repository/FirstUnityProject1/FirstUnityProject
     "memorysetup-temp-allocator-size-gfx=262144"
 Unable to join player connection multicast group.
 Unable to join player connection alternative multicast group.
-Refreshing native plugins compatible for Editor in 114.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path D:/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -65,41 +65,41 @@ Initialize mono
 Mono path[0] = 'D:/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'D:/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005940 seconds.
+Registered in 0.004961 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 110.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
+- Completed reload, in  0.966 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1021ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (139ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (423ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
+				InitializePlatformSupportModulesInManaged (80ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (108ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadAttributes (166ms)
 				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -107,39 +107,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009343 seconds.
+Registered in 0.009243 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Repository\FirstUnityProject1\FirstUnityProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Repository\FirstUnityProject1\FirstUnityProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.862 seconds
+- Completed reload, in  1.574 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1863ms)
+	ReloadAssembly (1575ms)
 		BeginReloadAssembly (316ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (174ms)
-		EndReloadAssembly (1161ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (171ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (374ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (497ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (489ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,13 +147,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3351 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.5 KB). Loaded Objects now: 3810.
 Memory consumption went from 115.5 MB to 115.4 MB.
-Total: 4.271823 ms (FindLiveObjects: 0.333172 ms CreateObjectMapping: 0.186651 ms MarkObjects: 3.594279 ms  DeleteObjects: 0.155854 ms)
+Total: 4.419899 ms (FindLiveObjects: 0.333172 ms CreateObjectMapping: 0.154298 ms MarkObjects: 3.763198 ms  DeleteObjects: 0.167675 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,151 +168,271 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 68398.536942 seconds.
-  path: Assets/Scenes/Objects
-  artifactKey: Guid(24a830355840854469d7af4179c9fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects using Guid(24a830355840854469d7af4179c9fe6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b74ee27444795523e0e5a83a9effc6') in 0.009292 seconds 
+  Time since last request: 76119.417965 seconds.
+  path: Assets/Scenes/Materials/New Material.mat
+  artifactKey: Guid(bbd65aebfe0f4f6498d2606e361bb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials/New Material.mat using Guid(bbd65aebfe0f4f6498d2606e361bb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fb6cbbef5135dd3eda71527897b299') in 0.163569 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 346.729849 seconds.
-  path: Assets/Scenes/Objects/Materials
-  artifactKey: Guid(b1b2a9930b6ae7348a69226018ca7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials using Guid(b1b2a9930b6ae7348a69226018ca7037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26609b3ab8cb51dab390aba78669c28') in 0.002114 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Materials
+  artifactKey: Guid(9bf717523f51de645b3aacd9910807e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materials using Guid(9bf717523f51de645b3aacd9910807e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c4c30c4d4545222acf4ec60778f922') in 0.002089 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.117286 seconds.
-  path: Assets/Scenes/Objects/Materials/New Material.mat
-  artifactKey: Guid(45516297a270884439b687865cc9e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/New Material.mat using Guid(45516297a270884439b687865cc9e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779f6f24a6d2f06b9cfbc819d3efa167') in 0.191495 seconds 
+  Time since last request: 791.638706 seconds.
+  path: Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab
+  artifactKey: Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab using Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424414af5565f6e2c74eabcae2d71f9d') in 0.044559 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.239952 seconds.
-  path: Assets/Scenes/Objects/Materials/New Material 1.mat
-  artifactKey: Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/New Material 1.mat using Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad60fdfa037298cc0e5a4559be2c27') in 0.013365 seconds 
+  Time since last request: 279.616960 seconds.
+  path: Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab
+  artifactKey: Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab using Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67936d03d3a411cea29c9d6d038823a7') in 0.020916 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1026.644733 seconds.
-  path: Assets/Scenes/Objects/RocksBrink
-  artifactKey: Guid(cf091f20a903cf447930945d75255e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink using Guid(cf091f20a903cf447930945d75255e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99388cba1b4c5c4acf8af345f8fade9e') in 0.001978 seconds 
+  Time since last request: 51.057290 seconds.
+  path: Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab
+  artifactKey: Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/RocksBrink/RocksRightBrink.prefab using Guid(8f0a7b8b5f2a81d45b3a016c21fbcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e42f3c7df90341c16ddf4ca4322e91') in 0.025050 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.658353 seconds.
-  path: Assets/Scenes/Objects/RocksBrink/RocksBrink.prefab
-  artifactKey: Guid(4084b89a74368aa4b8d1ee155f9b6070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink/RocksBrink.prefab using Guid(4084b89a74368aa4b8d1ee155f9b6070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef426db9298cbf41d154c2d20e5b9189') in 0.037689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 885.524013 seconds.
-  path: Assets/Scenes/Objects/Lava
-  artifactKey: Guid(c3d9188691b61504f93983f95fe26451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Lava using Guid(c3d9188691b61504f93983f95fe26451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a76274989efe9102b2d16e6c39c052') in 0.001993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.572904 seconds.
-  path: Assets/Scenes/Objects/Lava/Lava.prefab
-  artifactKey: Guid(2ce08f4d0ec8528458e4f1d0d159cc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Lava/Lava.prefab using Guid(2ce08f4d0ec8528458e4f1d0d159cc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda34ba86ae2ce7ae38d3c86440802e0') in 0.020662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 133.953212 seconds.
-  path: Assets/Scenes/Objects/New Folder
-  artifactKey: Guid(feb8e1780a451da478a497a1c8f6dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/New Folder using Guid(feb8e1780a451da478a497a1c8f6dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019ca7611c0de12f7e928c1ef358649b') in 0.001918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.299173 seconds.
-  path: Assets/Scenes/Objects/StoneWall
-  artifactKey: Guid(feb8e1780a451da478a497a1c8f6dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/StoneWall using Guid(feb8e1780a451da478a497a1c8f6dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f930fdaa33e7677dc19b07a67d55b67') in 0.001908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1773.694445 seconds.
+  Time since last request: 165.227890 seconds.
   path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
   artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aeb894efa694d80ae0ef51660102c63') in 0.041043 seconds 
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c306beb17e4c848c07a189a9a4ac8a7') in 0.037341 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1061.904277 seconds.
-  path: Assets/Scenes/Objects/Materials/Cement.mat
-  artifactKey: Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/Cement.mat using Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bf588e8182947ca7eb0f441127a17e') in 0.017375 seconds 
+  Time since last request: 456.498220 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneHalfWall (21).prefab
+  artifactKey: Guid(dde57ea3a6c918d4a820b023f4c89eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneHalfWall (21).prefab using Guid(dde57ea3a6c918d4a820b023f4c89eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c31b1d709263067e070d8d62380cd47') in 0.023395 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.752213 seconds.
-  path: Assets/Scenes/Objects/Materials/New Material 1.mat
-  artifactKey: Guid(08e9432d8904e6849950aab3e07f56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/New Material 1.mat using Guid(08e9432d8904e6849950aab3e07f56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6162e15621b935584728f7281dd1cfe') in 0.013053 seconds 
+  Time since last request: 102.922044 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneHalfWall (21).prefab
+  artifactKey: Guid(dde57ea3a6c918d4a820b023f4c89eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneHalfWall (21).prefab using Guid(dde57ea3a6c918d4a820b023f4c89eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8c209fbdbfc7223170331846bc5860') in 0.023447 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.833150 seconds.
-  path: Assets/Scenes/Objects/Materials/Stone.mat
-  artifactKey: Guid(08e9432d8904e6849950aab3e07f56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/Stone.mat using Guid(08e9432d8904e6849950aab3e07f56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08834dc2cf6fbac31803dafa59cbbc') in 0.016562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 177.412842 seconds.
-  path: Assets/Scenes/Objects/Materials/Stone 1.mat
-  artifactKey: Guid(51285830852081a4f89ec62ce24401bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/Stone 1.mat using Guid(51285830852081a4f89ec62ce24401bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e60919721c9f5b19fe94e03c05a1e2') in 0.022625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.935235 seconds.
-  path: Assets/Scenes/Objects/Materials/LightStone.mat
-  artifactKey: Guid(51285830852081a4f89ec62ce24401bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/LightStone.mat using Guid(51285830852081a4f89ec62ce24401bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f453b37214e39d91c58fbd6fcf2ad40c') in 0.020608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.810241 seconds.
-  path: Assets/Scenes/Objects/Materials/LightStone 1.mat
-  artifactKey: Guid(29603cdc856225a40894d80316ea9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/LightStone 1.mat using Guid(29603cdc856225a40894d80316ea9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd9c37d6c06808aa51c96035aa22fd') in 0.013388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.258681 seconds.
-  path: Assets/Scenes/Objects/Materials/VeryLightStone.mat
-  artifactKey: Guid(29603cdc856225a40894d80316ea9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/VeryLightStone.mat using Guid(29603cdc856225a40894d80316ea9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed662118422ceb9b73493c024ac50c6') in 0.024966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 231.290189 seconds.
+  Time since last request: 318.998542 seconds.
   path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
   artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0848f67f91896b493bd6ff5709b7e8f') in 0.039048 seconds 
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d97db2a5119c7b26d354b0a78db8698') in 0.028039 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.596000 seconds.
-  path: Assets/Scenes/Objects/Materials/Cement.mat
-  artifactKey: Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/Cement.mat using Guid(4193fc89276b61148bd8c63bbfdb18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ce10f1589f779a926cf5888e5f466f') in 0.014229 seconds 
+  Time since last request: 2.419662 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dac7487b89261960df2443b57dd54a8') in 0.027594 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.659811 seconds.
-  path: Assets/Scenes/Objects/Materials/Lava.mat
-  artifactKey: Guid(45516297a270884439b687865cc9e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/Materials/Lava.mat using Guid(45516297a270884439b687865cc9e50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ba0753f5b93e5e5571a0a1dd403844') in 0.010972 seconds 
+  Time since last request: 3.240341 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04246e0fc72145c9d11e22c2b80ea716') in 0.027516 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 117.026972 seconds.
-  path: Assets/Scenes/Objects/RocksBrink/RocksBrink.prefab
-  artifactKey: Guid(4084b89a74368aa4b8d1ee155f9b6070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink/RocksBrink.prefab using Guid(4084b89a74368aa4b8d1ee155f9b6070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a4f670559fac7f077bb2e090d00d46') in 0.021403 seconds 
+  Time since last request: 6.047794 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810ab8490fc34614e8b897741123a664') in 0.025631 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 283.963729 seconds.
-  path: Assets/Scenes/Objects/RocksBrink/RocksLeftBrink.prefab
-  artifactKey: Guid(47c2d55cdd9682345ab69cb4261a20d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink/RocksLeftBrink.prefab using Guid(47c2d55cdd9682345ab69cb4261a20d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1485ac3948313675c254fd39fc8455c') in 0.022013 seconds 
+  Time since last request: 5.675662 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ea0435b48f625257da33068a2c5885') in 0.027142 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 725.774464 seconds.
-  path: Assets/Scenes/Objects/RocksBrink/RocksLeftBrinkBlueSide.prefab
-  artifactKey: Guid(8a2cebc8328080149ab9ad03ccded013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink/RocksLeftBrinkBlueSide.prefab using Guid(8a2cebc8328080149ab9ad03ccded013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578a822af135154d114d79cdf68dc4ed') in 0.019741 seconds 
+  Time since last request: 10.687077 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec73ec80ccd13aebc8928f98459fa4') in 0.025192 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.150657 seconds.
-  path: Assets/Scenes/Objects/RocksBrink/RocksLeftBrink.prefab
-  artifactKey: Guid(8a2cebc8328080149ab9ad03ccded013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Objects/RocksBrink/RocksLeftBrink.prefab using Guid(8a2cebc8328080149ab9ad03ccded013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb107ae6f20719834adec59f0242ad58') in 0.019590 seconds 
+  Time since last request: 9.715355 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128c25d0c7e3442bf2db8c931123cdb7') in 0.033216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.158660 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1b7e3d6dbb74b20df498241c1ca312') in 0.026958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.455123 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40999652cb1b1c9f2839b20eb14249ef') in 0.025692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.165986 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2c67673f000a88d0d7ca7fc5958887') in 0.027128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.565575 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6821f1ca06d46f8f5d50fb4a82e292e') in 0.027317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.717083 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69114792dcb2887bcd0c07cb694ca689') in 0.030661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.253027 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fff81bd7aad7416b8217084a80d837b') in 0.026037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.610773 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd85a88af1af7297ffac8bb222fd987') in 0.029465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.514629 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df52cdcf27de457b5590ae5415c0970a') in 0.026265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.564016 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c575e0dee9f9c4048a363b397721e258') in 0.026446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.118747 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b848ab5ddb9c704e3d725f1eab0dc8') in 0.026892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.001516 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df883eb0fce7f6ce6421277b33791d4b') in 0.025875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.018676 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dbd8e64b6027fe29e2641fe6de403b') in 0.027119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.749422 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f0240904330210a7ad436663ad2f6') in 0.026776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.565434 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba487eda7404d689cd224a920476de59') in 0.025542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.320121 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac28ab6207eda8febbfb9b3967ff5b2') in 0.030259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.726088 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba76dbebff0cd93283d0ac881658113c') in 0.027048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.057265 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f7c9c85d0385cc9f9db401bb692e4b') in 0.025864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.159497 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2703dc7fa7f3cd62db717b8efa49bfd') in 0.027734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.027264 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55679fb79c6c52afd4803273c9a76b4') in 0.032984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.129166 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501fa0d9c0ea4f0570101389be19d7f7') in 0.027126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.747603 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f54508718ba11f968988dd54904daa') in 0.027198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.368365 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35855db7c001f35082f601231acbe4a4') in 0.033377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.186834 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637080ac7acf0891416b90068db58d9c') in 0.026759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.474145 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8bea698762797b90e2211eeb25b56d') in 0.032193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.874568 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9c95ef589bc33f5677de682f2bff74') in 0.031391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.501348 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87694c0dfaf827ce5f65d2498e34e008') in 0.026964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.055520 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bbc5515e593f3cce3c628f091231f0') in 0.026604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.477248 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951b3ae793517a11b7b6c74f2df490b0') in 0.026342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 187.693064 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcaf14353026bdcae7718e1c88de797') in 0.031936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.962568 seconds.
+  path: Assets/Scenes/Objects/StoneWall/StoneWall.prefab
+  artifactKey: Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Objects/StoneWall/StoneWall.prefab using Guid(3d1c2773f8607b44486d935171cee3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e911ca3941bab7ddc3aea9825df06b') in 0.034276 seconds 
